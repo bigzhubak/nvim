@@ -7,3 +7,6 @@
 [submodule "bundle/nerdtree_bigzhu"]
 	path = bundle/nerdtree_bigzhu
 	url = https://github.com/bigzhu/nerdtree
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar
