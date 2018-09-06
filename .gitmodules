@@ -10,3 +10,15 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
+[submodule "bundle/tpope-vim-abolish"]
+	path = bundle/tpope-vim-abolish
+	url = https://github.com/tpope/tpope-vim-abolish
+[submodule "bundle/gotests-vim"]
+	path = bundle/gotests-vim
+	url = https://github.com/buoto/gotests-vim
+[submodule "bundle/vim-mql4"]
+	path = bundle/vim-mql4
+	url = https://github.com/vobornik/vim-mql4
+[submodule "bundle/neosnippet.vim"]
+	path = bundle/neosnippet.vim
+	url = https://github.com/Shougo/neosnippet.vim
