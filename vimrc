@@ -5,7 +5,7 @@ set shell=/bin/bash
 " 让中文可以在 nvim 里面复制粘贴 
 lang zh_CN.UTF-8
 " 主题
-"colorscheme Tomorrow-Night
+colorscheme Tomorrow-Night
 " NERDTree--------------------------------------------------------------------------------------------------------------
 "默认打开tree
 let g:nerdtree_tabs_open_on_console_startup=1
@@ -44,3 +44,5 @@ else
     endfunction
 endif
 command! -nargs=1 SearchMD call SearchMD("<args>")
+
+source ~/.config/nvim/plug.vim
