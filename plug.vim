@@ -17,6 +17,8 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-go', {'build': {'unix': 'make'}}
 Plug 'jodosha/vim-godebug' " Debugger integration via delve
 
+Plug 'tpope/tpope-vim-abolish' " 驼峰和下划线转换
+
 
 
 
