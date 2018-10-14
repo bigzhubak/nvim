@@ -1,12 +1,10 @@
 "插件
 call plug#begin('~/.config/nvim/plugged')
-" 左边树形
-Plug 'bigzhu/nerdtree'
+
+Plug 'bigzhu/nerdtree' " 左边树形
 Plug 'jistr/vim-nerdtree-tabs'
-" markdow 的 toc
-Plug 'majutsushi/tagbar'
-" mql4 高亮
-Plug 'vobornik/vim-mql4'
+Plug 'majutsushi/tagbar' " markdow 的 toc
+Plug 'vobornik/vim-mql4' " mql4 高亮
 " golang 相关的
 Plug 'buoto/gotests-vim' " golang 生成测试
 Plug 'tpope/tpope-vim-abolish' " golang  自动生成代码
@@ -18,36 +16,8 @@ Plug 'zchee/deoplete-go', {'build': {'unix': 'make'}}
 Plug 'jodosha/vim-godebug' " Debugger integration via delve
 
 Plug 'tpope/tpope-vim-abolish' " 驼峰和下划线转换
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Plug 'plasticboy/vim-markdown'
+" flutter 
+Plug 'dart-lang/dart-vim-plugin' "dart
+Plug 'reisub0/hot-reload.vim' "hot reload
 call plug#end()
