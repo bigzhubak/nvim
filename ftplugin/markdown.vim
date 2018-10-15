@@ -30,6 +30,8 @@ let g:tagbar_type_markdown = {
     \ 'sort' : 0
 \ }
 
+" 关闭NERDTree
+NERDTreeTabsClose
 " markdown 默认打开
 let g:tagbar_left = 1
 TagbarOpen

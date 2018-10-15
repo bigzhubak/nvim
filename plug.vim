@@ -8,7 +8,8 @@ Plug 'vobornik/vim-mql4' " mql4 高亮
 " golang 相关的
 Plug 'buoto/gotests-vim' " golang 生成测试
 Plug 'tpope/tpope-vim-abolish' " golang  自动生成代码
-Plug 'bigzhu/vim-go' " Amazing combination of features.
+"Plug 'bigzhu/vim-go' " Amazing combination of features.
+Plug 'fatih/vim-go' " Amazing combination of features.
 Plug 'godoctor/godoctor.vim' " Some refactoring tools
 "golang 自动补全
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
