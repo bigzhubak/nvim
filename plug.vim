@@ -21,4 +21,6 @@ Plug 'plasticboy/vim-markdown'
 " flutter 
 Plug 'dart-lang/dart-vim-plugin' "dart
 Plug 'reisub0/hot-reload.vim' "hot reload
+" 代码检查
+Plug 'w0rp/ale'
 call plug#end()

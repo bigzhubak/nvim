@@ -7,3 +7,5 @@ source ~/.config/nvim/deoplete.vim
 source ~/.config/nvim/markdown.vim
 " tree
 source ~/.config/nvim/tree.vim
+" ale 代码检查
+source ~/.config/nvim/ale.vim
