@@ -6,3 +6,7 @@ set shell=/bin/bash
 lang zh_CN.UTF-8
 " 主题
 colorscheme Tomorrow-Night
+" 输入tab 转为2个空格
+set ts=2
+set expandtab
+set autoindent
