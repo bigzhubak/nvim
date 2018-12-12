@@ -34,4 +34,6 @@ Plug 'scrooloose/syntastic' "语法检查
 Plug 'sekel/vim-vue-syntastic' "让syntastic支持vue
 " Rust
 Plug 'rust-lang/rust.vim'
+" toml
+Plug 'cespare/vim-toml'
 call plug#end()

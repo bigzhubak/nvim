@@ -7,6 +7,7 @@ lang zh_CN.UTF-8
 " 主题
 colorscheme Tomorrow-Night
 " 输入tab 转为2个空格
-set ts=2
 set expandtab
-set autoindent
+set softtabstop=2
+set tabstop=2 "设置制表符空格数
+set shiftwidth=2 "设置缩进空格数
