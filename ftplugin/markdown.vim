@@ -1,6 +1,7 @@
 " 针对 ink 的 markdown blog 系统, 生成配置信息
-map <buffer> <f1> idraft: false<cr>date: <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr><cr>cover: /images/avatar.jpeg<cr>tags:<cr>    - bigzhu<cr><BS><BS><BS><BS>preview:<cr><cr>---<cr><!--more--><cr><Esc>
+" map <buffer> <f1> idraft: false<cr>date: <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr><cr>cover: /images/avatar.jpeg<cr>tags:<cr>    - bigzhu<cr><BS><BS><BS><BS>preview:<cr><cr>---<cr><!--more--><cr><Esc>
 " 用默认程序打开 markdown 文件
+map <buffer> <f1> i---<cr>title: "<c-r>=expand('%:r')<cr>"<cr>date: <c-r>=strftime("%FT%T%z")<cr><cr>draft: true<cr>---<cr><esc>
 :nmap <f4> :!open "%" <cr>
 " 插入当前时间
 :inoremap <buffer> <c-n> <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
