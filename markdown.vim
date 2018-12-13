@@ -1,6 +1,7 @@
 " markdown wiki --------------------------------------------------------------------------------------------------------------
-" let g:md_path='~/Dropbox/blog/'
+let g:md_path_old='~/Dropbox/blog/'
 let g:md_path='~/hugo_blog/content/post/'
+map <c-s> :execute 'silent cd' md_path_old<cr>:SearchMDOld 
 map <c-f> :execute 'silent cd' md_path<cr>:SearchMD 
 " 用这一行来跳转文件(search 时用)
 "nmap <c-g> 0v$<esc>: execute "e ".getline("'<").".md"<cr>
@@ -22,3 +23,16 @@ else
     endfunction
 endif
 command! -nargs=1 SearchMD call SearchMD("<args>")
+
+"找 md 老版本的 
+if exists("*SearchMDOld")
+else
+    function! SearchMDOld(Name)
+        "首先要设置运行路径,避免路径不同
+        ":  echom "silent !markdown_search.py '".g:md_path_old."' '".a:Name."'"
+        execute "silent !markdown_search.py '".g:md_path_old."' '".a:Name."'"
+        execute ":redraw!"
+        execute "e search.md"
+    endfunction
+endif
+command! -nargs=1 SearchMDOld call SearchMDOld("<args>")
