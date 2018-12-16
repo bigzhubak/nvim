@@ -36,4 +36,8 @@ Plug 'sekel/vim-vue-syntastic' "让syntastic支持vue
 Plug 'rust-lang/rust.vim'
 " toml
 Plug 'cespare/vim-toml'
+" nginx
+Plug 'chr4/nginx.vim'
+" python
+Plug 'python-mode/python-mode', { 'branch': 'develop' }
 call plug#end()
