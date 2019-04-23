@@ -47,3 +47,5 @@ set splitbelow " 分割在下边
 let g:go_term_mode = "split" "上下分割
 let g:go_list_autoclose = 1
 let g:go_list_type_commands = {"GoTest": "quickfix"}
+" 打开右边的结构体
+:TagbarOpen

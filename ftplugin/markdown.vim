@@ -32,7 +32,7 @@ let g:tagbar_type_markdown = {
 \ }
 
 " 关闭NERDTree
-NERDTreeTabsClose
+" NERDTreeTabsClose
 " markdown 默认打开
-let g:tagbar_left = 1
-TagbarOpen
+" let g:tagbar_left = 1
+" TagbarOpen

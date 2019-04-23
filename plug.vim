@@ -11,14 +11,18 @@ Plug 'tpope/tpope-vim-abolish' " golang  自动生成代码
 "Plug 'bigzhu/vim-go' " Amazing combination of features.
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'godoctor/godoctor.vim' " Some refactoring tools
+Plug 'majutsushi/tagbar' " 显示 golang 右侧结构体
 "golang 自动补全
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-go', {'build': {'unix': 'make'}}
 " Plug 'jodosha/vim-godebug' " Debugger integration via delve
 " Plug 'stamblerre/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 
+" 文本编辑
 Plug 'tpope/tpope-vim-abolish' " 驼峰和下划线转换
 Plug 'plasticboy/vim-markdown'
+Plug 'dhruvasagar/vim-table-mode' " 表格编辑
+
 " flutter 
 Plug 'dart-lang/dart-vim-plugin' "dart
 Plug 'reisub0/hot-reload.vim' "hot reload
