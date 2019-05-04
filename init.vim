@@ -9,3 +9,5 @@ source ~/.config/nvim/markdown.vim
 source ~/.config/nvim/tree.vim
 " ale 代码检查
 source ~/.config/nvim/ale.vim
+" 其他
+source ~/.config/nvim/other.vim

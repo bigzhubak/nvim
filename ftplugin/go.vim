@@ -9,14 +9,16 @@ let g:go_list_height=10
 " 不要查 errcheck 太多奇怪的报错了
 let g:go_metalinter_enabled=['vet', 'golint', 'deadcode']
 " 保存时自动检查错误, 只显示当前打开的文件中的错误, 为毛?
+let g:go_metalinter_command = "golangci-lint"
 let g:go_metalinter_autosave=1
 let g:go_metalinter_autosave_enabled=g:go_metalinter_enabled
 " 只有手工检查, 真是的
 nmap <F1> :GoMetaLinter<cr> 
 " 不要自动跳转到错误
 let g:go_jump_to_error=0
-" 用更稳定的 guru 来做代码跳转
-let g:go_def_mode = 'guru'
+" 用更稳定的 guru 来做代码跳转(t同一个 package 的函数无法跳过去)
+"let g:go_def_mode = 'guru'
+let g:go_def_mode = 'godef'
 "=====================================编辑的修改
 " 显示为2个空格
 set noexpandtab

@@ -42,6 +42,12 @@ Plug 'rust-lang/rust.vim'
 Plug 'cespare/vim-toml'
 " nginx
 Plug 'chr4/nginx.vim'
+"typescript 插件
+Plug 'leafgarland/typescript-vim'
 " python
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
+" nginx
+Plug 'chr4/nginx.vim'
+Plug 'lepture/vim-jinja'
+
 call plug#end()
