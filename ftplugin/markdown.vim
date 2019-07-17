@@ -3,8 +3,9 @@
 " 用默认程序打开 markdown 文件
 map <buffer> <f1> i---<cr>title: "<c-r>=expand('%:r')<cr>"<cr>date: <c-r>=strftime("%FT%T%z")<cr><cr>draft: true<cr>---<cr><esc>
 :nmap <f4> :!open "%" <cr>
-" 插入当前时间
-:inoremap <buffer> <c-n> <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
+" 插入当前时间 ctrl+n(now)
+":inoremap <buffer> <c-n> <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
+:inoremap <buffer> <c-n> <c-r>=strftime("%FT%T%z")<cr>
 
 " for vim-table-mode
 let g:table_mode_corner='|'

@@ -1,5 +1,5 @@
 " markdown wiki --------------------------------------------------------------------------------------------------------------
-let g:md_path='~/Mega/cheese/'
+let g:md_path='~/Dropbox/cheese/'
 map <c-f> :execute 'silent cd' md_path<cr>:SearchMD 
 " 用这一行来跳转文件(search 时用)
 "nmap <c-g> 0v$<esc>: execute "e ".getline("'<").".md"<cr>

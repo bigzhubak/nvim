@@ -49,5 +49,9 @@ Plug 'python-mode/python-mode', { 'branch': 'develop' }
 " nginx
 Plug 'chr4/nginx.vim'
 Plug 'lepture/vim-jinja'
+" stylus 样式文件 高亮
+Plug 'wavded/vim-stylus'
 
 call plug#end()
+
+" 升级命令: PlugUpdate
