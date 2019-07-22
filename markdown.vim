@@ -3,7 +3,7 @@ let g:md_path='~/Dropbox/cheese/'
 map <c-f> :execute 'silent cd' md_path<cr>:SearchMD 
 " 用这一行来跳转文件(search 时用)
 "nmap <c-g> 0v$<esc>: execute "e ".getline("'<").".md"<cr>
-nmap <c-g> 0v$<esc>:execute "silent ! hugo new ".g:md_path."'".getline("'<").".md'"<cr>: execute "e ".getline("'<").".md"<cr>
+nmap <c-g> 0v$<esc>:execute "silent ! hugo new ".g:md_path."'".getline("'<").".md'"<cr>: execute "e ".getline("'<").".md"<cr>:%s/draft: true/draft: false/g<cr>
 " 取到v 下选中的值, 再用 open 打开
 vmap <c-g> <c-">ay: execute "e <c-r>a.md"<cr>
 " 关了 folding
