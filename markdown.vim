@@ -30,7 +30,7 @@ else
       if empty(glob(g:path_file))
         execute "silent ! hugo new '".a:FileName."'"
         execute "e ".g:path_file
-        ":%s/draft: true/draft: false/g
+        :%s/draft: true/draft: false/g
       else
         "存在直接编辑
         execute "e ".g:path_file
