@@ -1,6 +1,8 @@
 " markdown wiki --------------------------------------------------------------------------------------------------------------
 let g:md_path='~/Dropbox/cheese/'
 let g:sub_path='tips/'
+let g:blog_path='~/Project/sites/blog/'
+
 map <c-f> :SearchMD 
 " 用这一行来跳转文件(search 时用)
 nmap <c-g> 0v$<esc>:execute "CreateOrOpenMD ".getline('.').".md"<cr>
