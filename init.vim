@@ -15,3 +15,5 @@ source ~/.config/nvim/other.vim
 source ~/.config/nvim/coc_base_conf.vim
 " coc config myself config
 source ~/.config/nvim/coc_conf.vim
+" 主题
+colorscheme Tomorrow-Night
