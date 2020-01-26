@@ -16,4 +16,7 @@ source ~/.config/nvim/coc_base_conf.vim
 " coc config myself config
 source ~/.config/nvim/coc_conf.vim
 " 主题
-colorscheme Tomorrow-Night
+"colorscheme Tomorrow-Night
+"colorscheme nord
+colorscheme gruvbox
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
