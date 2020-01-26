@@ -1,6 +1,8 @@
+"PlugUpdate
 "插件
 call plug#begin('~/.config/nvim/plugged')
 
+Plug 'neoclide/coc.nvim', {'branch': 'release'} "the best completion plugin
 Plug 'bigzhu/nerdtree' " 左边树形
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'majutsushi/tagbar' " markdow 的 toc
@@ -13,8 +15,8 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'godoctor/godoctor.vim' " Some refactoring tools
 Plug 'majutsushi/tagbar' " 显示 golang 右侧结构体
 "golang 自动补全
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'zchee/deoplete-go', {'build': {'unix': 'make'}}
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"Plug 'zchee/deoplete-go', {'build': {'unix': 'make'}}
 " Plug 'jodosha/vim-godebug' " Debugger integration via delve
 " Plug 'stamblerre/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 

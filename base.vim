@@ -11,3 +11,7 @@ set expandtab
 set softtabstop=2
 set tabstop=2 "设置制表符空格数
 set shiftwidth=2 "设置缩进空格数
+
+"无限回滚
+set undodir=~/.vimundodir
+set undofile
