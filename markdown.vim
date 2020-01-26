@@ -1,7 +1,8 @@
 " markdown wiki --------------------------------------------------------------------------------------------------------------
 let g:md_path='~/Dropbox/cheese/'
 let g:sub_path='tips/'
-let g:blog_path='~/Project/sites/blog/'
+"hugo创造文件时需要config.toml
+let g:blog_path='~/blog/'
 
 map <c-f> :SearchMD 
 " 用这一行来跳转文件(search 时用)
@@ -36,6 +37,7 @@ else
       let g:path_file=g:md_path.a:FileName
       "文件不存在就用 hugo 创建并且替换参数
       if empty(glob(g:path_file))
+        execute "cd ".g:blog_path
         echo "silent ! hugo new '".a:FileName."'"
         execute "silent ! hugo new '".a:FileName."'"
         execute "e ".g:path_file
