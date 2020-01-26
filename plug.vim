@@ -3,8 +3,8 @@
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "the best completion plugin
-Plug 'bigzhu/nerdtree' " 左边树形
-Plug 'jistr/vim-nerdtree-tabs'
+"Plug 'bigzhu/nerdtree' " 左边树形
+"Plug 'jistr/vim-nerdtree-tabs'
 Plug 'majutsushi/tagbar' " markdow 的 toc
 Plug 'vobornik/vim-mql4' " mql4 高亮
 " golang 相关的
