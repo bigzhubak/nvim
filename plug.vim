@@ -26,10 +26,10 @@ Plug 'plasticboy/vim-markdown'
 Plug 'dhruvasagar/vim-table-mode' " 表格编辑
 
 " flutter 
-Plug 'dart-lang/dart-vim-plugin' "dart
-Plug 'reisub0/hot-reload.vim' "hot reload
+"Plug 'dart-lang/dart-vim-plugin' "dart
+"Plug 'reisub0/hot-reload.vim' "hot reload
 " 代码检查
-Plug 'w0rp/ale'
+"Plug 'w0rp/ale'
 " Vue
 Plug 'pangloss/vim-javascript' "让嵌入html的js也能正确格式化
 Plug 'darthmall/vim-vue' "vim vue
