@@ -21,11 +21,14 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} "the best completion plugin
 
 " 文本编辑
 "Plug 'tpope/tpope-vim-abolish' " 驼峰和下划线转换
-"Plug 'plasticboy/vim-markdown'
+Plug 'plasticboy/vim-markdown'
 "Plug 'dhruvasagar/vim-table-mode' " 表格编辑
 
+"git
+Plug 'tpope/vim-fugitive'
+
 " flutter 
-"Plug 'dart-lang/dart-vim-plugin' "dart
+Plug 'dart-lang/dart-vim-plugin' "dart
 "Plug 'reisub0/hot-reload.vim' "hot reload
 " 代码检查
 "Plug 'w0rp/ale'

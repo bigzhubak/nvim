@@ -11,7 +11,7 @@ source ~/.config/nvim/markdown.vim
 "source ~/.config/nvim/ale.vim
 " 其他
 source ~/.config/nvim/other.vim
-" coc
-source ~/.config/nvim/coc.vim
-" coc config
-source ~/.config/nvim/coc_config.vim
+" coc base config and map
+source ~/.config/nvim/coc_base_conf.vim
+" coc config myself config
+source ~/.config/nvim/coc_conf.vim
