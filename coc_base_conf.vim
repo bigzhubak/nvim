@@ -65,8 +65,6 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Remap for rename current word
 nmap <leader>rn <Plug>(coc-rename)
-" Remap for refactor current function or other (add by bigzhu)
-nmap <leader>rf <Plug>(coc-refactor)
 
 " Remap for format selected region
 xmap <leader>f  <Plug>(coc-format-selected)

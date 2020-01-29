@@ -1,6 +1,9 @@
 
 "coc-vetur for vuejs
 let g:coc_global_extensions = [
+      \'coc-snippets',
+      \'coc-emmet',
+      \'coc-pairs',
       \'coc-markdownlint',
       \'coc-highlight',
       \'coc-vetur',
@@ -19,3 +22,11 @@ let g:coc_global_extensions = [
 
 " To enable highlight current symbol on CursorHold
 autocmd CursorHold * silent call CocActionAsync('highlight')
+
+" Remap for refactor current function or other (add by bigzhu)
+nmap <leader>rf <Plug>(coc-refactor)
+
+" find next error
+nmap <leader>fn <Plug>(coc-diagnostic-next)
+" find prev error
+nmap <leader>fp <Plug>(coc-diagnostic-prev)

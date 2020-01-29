@@ -3,14 +3,21 @@
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "the best completion plugin
+
+"主题
 Plug 'chriskempson/vim-tomorrow-theme' " 配色
-Plug 'arcticicestudio/nord-vim' " 北蓝配色
-Plug 'junegunn/seoul256.vim' "配色
+"Plug 'arcticicestudio/nord-vim' " 北蓝配色
+"Plug 'junegunn/seoul256.vim' "配色
 Plug 'morhetz/gruvbox' "配色
 "Plug 'bigzhu/nerdtree' " 左边树形
 "Plug 'jistr/vim-nerdtree-tabs'
-"Plug 'majutsushi/tagbar' " markdow 的 toc
-"Plug 'vobornik/vim-mql4' " mql4 高亮
+
+"markdown
+"Plug 'majutsushi/tagbar' 
+"Plug 'lvht/tagbar-markdown' " markdow 的 toc
+Plug 'liuchengxu/vista.vim' " View and search LSP symbols, tags in Vim/NeoVim. (用于显示 markdown toc)
+Plug 'plasticboy/vim-markdown'
+
 " golang 相关的
 "Plug 'buoto/gotests-vim' " golang 生成测试
 "Plug 'tpope/tpope-vim-abolish' " golang  自动生成代码
@@ -24,8 +31,7 @@ Plug 'morhetz/gruvbox' "配色
 " Plug 'stamblerre/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 
 " 文本编辑
-"Plug 'tpope/tpope-vim-abolish' " 驼峰和下划线转换
-Plug 'plasticboy/vim-markdown'
+Plug 'tpope/tpope-vim-abolish' " 驼峰和下划线转换
 "Plug 'dhruvasagar/vim-table-mode' " 表格编辑
 
 "git
@@ -59,6 +65,8 @@ Plug 'dart-lang/dart-vim-plugin' "dart
 "Plug 'lepture/vim-jinja'
 " stylus 样式文件 高亮
 "Plug 'wavded/vim-stylus'
+
+Plug 'vobornik/vim-mql4' " mql4 高亮
 
 call plug#end()
 
