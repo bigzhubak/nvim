@@ -1,6 +1,16 @@
 {
-  "flutter.trace.server": "off",
   "coc.preferences.formatOnSaveFiletypes": [
+    "json",
+    "typescript",
+    "javascript",
+    "css",
+    "markdown",
     "dart"
-  ]
+  ],
+  "markdownlint.config":{
+      "line_length": false,
+    "no-inline-html": {
+      "allowed_elements": [ "img" ]
+    }
+  }
 }
