@@ -9,6 +9,7 @@
     "dart"
   ],
   "markdownlint.config":{
+      "no-bare-urls": false,
       "line_length": false,
     "no-inline-html": {
       "allowed_elements": [ "img" ]

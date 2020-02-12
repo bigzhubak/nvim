@@ -13,3 +13,8 @@ set shiftwidth=2 "设置缩进空格数
 "无限回滚
 set undodir=~/.vimundodir
 set undofile
+
+"fold
+set foldmethod=indent
+"disable auto fold
+set foldlevel=20
