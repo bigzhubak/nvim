@@ -1,6 +1,7 @@
 
 "coc-vetur for vuejs
 "\'coc-snippets',
+"\'coc-explorer',
 let g:coc_global_extensions = [
       \'coc-prettier',
       \'coc-tsserver',
@@ -10,7 +11,6 @@ let g:coc_global_extensions = [
       \'coc-vetur',
       \'coc-go',
       \'coc-python',
-      \'coc-explorer',
       \'coc-flutter', 
       \'coc-json', 
       \'coc-git'

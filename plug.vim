@@ -2,6 +2,8 @@
 "插件
 call plug#begin('~/.config/nvim/plugged')
 
+Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "the best completion plugin
 
 "主题
@@ -9,8 +11,9 @@ Plug 'chriskempson/vim-tomorrow-theme' " 配色
 "Plug 'arcticicestudio/nord-vim' " 北蓝配色
 "Plug 'junegunn/seoul256.vim' "配色
 Plug 'morhetz/gruvbox' "配色
-"Plug 'bigzhu/nerdtree' " 左边树形
-"Plug 'jistr/vim-nerdtree-tabs'
+
+Plug 'bigzhu/nerdtree' " 左边树形
+Plug 'jistr/vim-nerdtree-tabs'
 
 "markdown
 "Plug 'majutsushi/tagbar' 
