@@ -2,6 +2,9 @@
 "插件
 call plug#begin('~/.config/nvim/plugged')
 
+"icon
+Plug 'ryanoasis/vim-devicons'
+
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "the best completion plugin
