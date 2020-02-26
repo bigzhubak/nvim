@@ -4,6 +4,7 @@
 "\'coc-explorer',
 let g:coc_global_extensions = [
       \'coc-prettier',
+      \'coc-explorer',
       \'coc-tsserver',
       \'coc-emmet',
       \'coc-markdownlint',
@@ -19,7 +20,10 @@ let g:coc_global_extensions = [
 
 "https://github.com/weirongxu/coc-explorer
 "<space>e open explore
+"open left explore
 :nmap <space>e :CocCommand explorer<CR>
+" open right struct
+:nmap <space>i :Vista<CR>
 
 " To enable highlight current symbol on CursorHold
 autocmd CursorHold * silent call CocActionAsync('highlight')
@@ -31,3 +35,5 @@ nmap <leader>rf <Plug>(coc-refactor)
 nmap <leader>fn <Plug>(coc-diagnostic-next)
 " find prev error
 nmap <leader>fp <Plug>(coc-diagnostic-prev)
+
+let g:vista_sidebar_width=40

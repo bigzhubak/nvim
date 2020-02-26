@@ -4,7 +4,7 @@ source ~/.config/nvim/plug.vim
 " markdown
 source ~/.config/nvim/markdown.vim
 " tree
-source ~/.config/nvim/tree.vim
+"source ~/.config/nvim/tree.vim
 " ale 代码检查
 "source ~/.config/nvim/ale.vim
 " 其他
