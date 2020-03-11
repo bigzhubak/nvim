@@ -23,7 +23,7 @@ let g:coc_global_extensions = [
 "<space>e open explore
 "open left explore
 :nmap <space>e :CocCommand explorer<CR>
-" open right struct
+" open right structure
 :nmap <space>i :Vista<CR>
 
 " To enable highlight current symbol on CursorHold
@@ -38,3 +38,6 @@ nmap <leader>fn <Plug>(coc-diagnostic-next)
 nmap <leader>fp <Plug>(coc-diagnostic-prev)
 
 let g:vista_sidebar_width=40
+"show coc-spell-checker suggestion
+vmap <leader>a <Plug>(coc-codeaction-selected)
+nmap <leader>a <Plug>(coc-codeaction-selected)

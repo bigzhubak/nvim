@@ -1,5 +1,6 @@
 {
   "coc.preferences.formatOnSaveFiletypes": [
+    "python",
     "vue",
     "go",
     "json",
@@ -15,5 +16,8 @@
     "no-inline-html": {
       "allowed_elements": [ "img" ]
     }
-  }
+  },
+  "cSpell.userWords": [
+    "bigzhu"
+  ]
 }
