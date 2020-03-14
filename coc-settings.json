@@ -19,5 +19,14 @@
   },
   "cSpell.userWords": [
     "bigzhu"
-  ]
+  ],
+  // vuejs auto format config
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "singleQuote": true, 
+      "semi": false, //no need semicolon
+      "trailingComma": "none",
+      "tabWidth": 2
+    }
+  }
 }
