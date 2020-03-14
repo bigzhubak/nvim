@@ -18,7 +18,8 @@
     }
   },
   "cSpell.userWords": [
-    "bigzhu"
+    "bigzhu",
+    "vuejs"
   ],
   // vuejs auto format config
   "vetur.format.defaultFormatterOptions": {
@@ -28,5 +29,12 @@
       "trailingComma": "none",
       "tabWidth": 2
     }
-  }
+  },
+
+  // coc-spell-checker
+  "cSpell.ignoreWords": [
+    "vetur", 
+    "vuejs", 
+    "markdownlint"
+  ]
 }
