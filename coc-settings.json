@@ -1,5 +1,6 @@
 {
   "coc.preferences.formatOnSaveFiletypes": [
+    "html",
     "python",
     "vue",
     "go",
@@ -33,6 +34,10 @@
 
   // coc-spell-checker
   "cSpell.ignoreWords": [
+    "modelsbz", 
+    "jinzhu", 
+    "gobz", 
+    "gorm", 
     "vetur", 
     "vuejs", 
     "markdownlint"

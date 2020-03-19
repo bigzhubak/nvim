@@ -2,6 +2,12 @@
 "插件
 call plug#begin('~/.config/nvim/plugged')
 
+" Track the engine.
+Plug 'SirVer/ultisnips'
+
+" Snippets are separated from the engine. Add this if you want them:
+Plug 'honza/vim-snippets'
+
 "icon
 Plug 'ryanoasis/vim-devicons'
 
