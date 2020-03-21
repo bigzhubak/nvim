@@ -50,7 +50,8 @@ Plug 'tpope/tpope-vim-abolish' " 驼峰和下划线转换
 Plug 'tpope/vim-fugitive'
 
 " flutter 
-Plug 'dart-lang/dart-vim-plugin' "dart
+"Plug 'dart-lang/dart-vim-plugin' "dart
+Plug 'bigzhu/dart-vim-plugin' "dart for long line-length
 "Plug 'reisub0/hot-reload.vim' "hot reload
 " 代码检查
 "Plug 'w0rp/ale'

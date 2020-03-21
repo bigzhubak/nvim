@@ -1,5 +1,6 @@
 {
   "coc.preferences.formatOnSaveFiletypes": [
+    //"dart",
     "html",
     "python",
     "vue",
@@ -8,8 +9,7 @@
     "typescript",
     "javascript",
     "css",
-    "markdown",
-    "dart"
+    "markdown"
   ],
   "markdownlint.config":{
     "no-bare-urls": false,
