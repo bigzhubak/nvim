@@ -6,7 +6,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'SirVer/ultisnips'
 
 " Snippets are separated from the engine. Add this if you want them:
-Plug 'honza/vim-snippets'
+Plug 'bigzhu/vim-snippets'
 
 "icon
 Plug 'ryanoasis/vim-devicons'
@@ -33,7 +33,7 @@ Plug 'plasticboy/vim-markdown'
 " golang 相关的
 "Plug 'buoto/gotests-vim' " golang 生成测试
 "Plug 'tpope/tpope-vim-abolish' " golang  自动生成代码
-"Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 "Plug 'godoctor/godoctor.vim' " Some refactoring tools
 "Plug 'majutsushi/tagbar' " 显示 golang 右侧结构体
 "golang 自动补全

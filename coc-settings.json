@@ -34,6 +34,7 @@
 
   // coc-spell-checker
   "cSpell.ignoreWords": [
+    "oauth", 
     "modelsbz", 
     "jinzhu", 
     "gobz", 
