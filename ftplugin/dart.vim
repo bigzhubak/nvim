@@ -6,3 +6,13 @@ noremap <buffer> <f5> :CocCommand flutter.dev.hotRestart<cr>
 noremap <buffer> <f9> :CocCommand flutter.dev.detach<cr>
 let g:dart_format_on_save = 1
 autocmd BufRead,BufNewFile,BufEnter *.dart UltiSnipsAddFiletypes dart-flutter
+
+
+let g:loaded_netrw = 1
+
+function! AuCocNvimInit()
+    if @% == '' || @% == '.'
+      exe ':CocCommand explorer'
+    endif
+endfunction
+autocmd User CocNvimInit call AuCocNvimInit()
