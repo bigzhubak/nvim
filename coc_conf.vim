@@ -46,4 +46,3 @@ nmap <leader>a <Plug>(coc-codeaction-selected)
 
 "
 autocmd CursorHold * silent call CocActionAsync('highlight')
-

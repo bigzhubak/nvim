@@ -1,7 +1,7 @@
 {
   "python.jediEnabled": false, // use MPLS 补全
   "coc.preferences.formatOnSaveFiletypes": [
-    //"dart",
+    "dart",
     "html",
     "python",
     "vue",

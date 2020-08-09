@@ -1,3 +1,5 @@
+"auto open explorer
+exe ':CocCommand explorer --no-toggle --no-focus'
 "auto open asyncrun quickfix
 let g:asyncrun_open=6
 "禁止python缓存
