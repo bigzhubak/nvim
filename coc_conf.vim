@@ -43,3 +43,7 @@ let g:vista_sidebar_width=40
 "show coc-spell-checker suggestion
 vmap <leader>a <Plug>(coc-codeaction-selected)
 nmap <leader>a <Plug>(coc-codeaction-selected)
+
+"
+autocmd CursorHold * silent call CocActionAsync('highlight')
+

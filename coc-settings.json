@@ -1,4 +1,5 @@
 {
+  "python.jediEnabled": false, // use MPLS 补全
   "coc.preferences.formatOnSaveFiletypes": [
     //"dart",
     "html",
@@ -11,21 +12,18 @@
     "css",
     "markdown"
   ],
-  "markdownlint.config":{
+  "markdownlint.config": {
     "no-bare-urls": false,
     "line_length": false,
     "no-inline-html": {
-      "allowed_elements": [ "img" ]
+      "allowed_elements": ["img"]
     }
   },
-  "cSpell.userWords": [
-    "bigzhu",
-    "vuejs"
-  ],
+  "cSpell.userWords": ["bigzhu", "vuejs"],
   // vuejs auto format config
   "vetur.format.defaultFormatterOptions": {
     "prettier": {
-      "singleQuote": true, 
+      "singleQuote": true,
       "semi": false, //no need semicolon
       "trailingComma": "none",
       "tabWidth": 2
@@ -34,6 +32,7 @@
 
   // coc-spell-checker
   "cSpell.ignoreWords": [
+    "lemmatization",
     "jsonb",
     "genrsa",
     "openssl",
@@ -41,13 +40,13 @@
     "Ebouy",
     "covid",
     "gosoup",
-    "oauth", 
-    "modelsbz", 
-    "jinzhu", 
-    "gobz", 
-    "gorm", 
-    "vetur", 
-    "vuejs", 
+    "oauth",
+    "modelsbz",
+    "jinzhu",
+    "gobz",
+    "gorm",
+    "vetur",
+    "vuejs",
     "markdownlint"
   ]
 }

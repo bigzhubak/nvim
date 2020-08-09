@@ -2,6 +2,8 @@
 "插件
 call plug#begin('~/.config/nvim/plugged')
 
+Plug 'skywind3000/asyncrun.vim'
+
 " Track the engine.
 Plug 'SirVer/ultisnips'
 
