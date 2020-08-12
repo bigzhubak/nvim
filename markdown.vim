@@ -41,7 +41,7 @@ else
         echo "silent ! hugo new '".a:FileName."'"
         execute "silent ! hugo new '".a:FileName."'"
         execute "e ".g:path_file
-        :%s/draft: true/draft: false/g
+        ":%s/draft: true/draft: false/g
         "make sure path to md_path
         execute "cd ".g:md_path
       else
