@@ -1,9 +1,7 @@
 "CocInstall coc-go
 "coc-vetur for vuejs
 "\'coc-snippets',
-"\'coc-explorer',
 let g:coc_global_extensions = [
-      \'coc-snippets',
       \'coc-html',
       \'coc-spell-checker',
       \'coc-prettier',

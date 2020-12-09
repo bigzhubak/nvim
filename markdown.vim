@@ -2,7 +2,7 @@
 let g:md_path='~/Dropbox/cheese/'
 let g:sub_path='tips/'
 "hugo创造文件时需要config.toml
-let g:blog_path='~/blog/'
+let g:blog_path='~//Projects/blog/'
 
 map <c-f> :SearchMD 
 " 用这一行来跳转文件(search 时用)
