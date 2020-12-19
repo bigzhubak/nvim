@@ -4,6 +4,10 @@ let g:sub_path='tips/'
 "hugo创造文件时需要config.toml
 let g:blog_path='~//Projects/blog/'
 
+" transfor markmap
+"nmap <F4> :cd %:h | !markmap "%:t" -o ../mindmap/"%:r.html"<cr>
+map <F4> :cd %:h <cr> :!markmap "%:t" -o ../mindmap/"%:r.html"<cr>
+
 map <c-f> :SearchMD 
 " 用这一行来跳转文件(search 时用)
 nmap <c-g> 0v$<esc>:execute "CreateOrOpenMD ".getline('.').".md"<cr>

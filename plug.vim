@@ -85,6 +85,7 @@ Plug 'vobornik/vim-mql4' " mql4 高亮
 
 Plug 'cespare/vim-toml' "toml config highlight
 
+
 call plug#end()
 
 " 升级命令: PlugUpdate
