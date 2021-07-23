@@ -1,12 +1,12 @@
 " markdown wiki --------------------------------------------------------------------------------------------------------------
+" 文章内容存储目录
 let g:md_path='~/Dropbox/cheese/'
+"hugo 模版和配置文件目录
+let g:blog_source_dir='~/Dropbox/blog/'
 let g:sub_path='tips/'
-"hugo创造文件时需要config.toml
-let g:blog_path='~//Projects/blog/'
 
 " transfor markmap
-"nmap <F4> :cd %:h | !markmap "%:t" -o ../mindmap/"%:r.html"<cr>
-map <F4> :cd %:h <cr> :!markmap "%:t" -o ../mindmap/"%:r.html"<cr>
+map <F4> :cd %:h <cr> :!markmap_new "%:t" -o ../mindmap/"%:r.html"<cr>
 
 map <c-f> :SearchMD 
 " 用这一行来跳转文件(search 时用)
@@ -24,10 +24,9 @@ else
         "保证基础路径
         execute "cd ".g:md_path
         "首先要设置运行路径,避免路径不同
-        ":  echom "silent !markdown_search.py '".g:md_path."' '".a:Name."'"
         execute "silent !markdown_search.py '".g:md_path."' '".a:Name."'"
         execute ":redraw!"
-        execute "e search.md"
+        execute "edit! search.md"
     endfunction
 endif
 command! -nargs=1 SearchMD call SearchMD("<args>")
@@ -36,18 +35,12 @@ command! -nargs=1 SearchMD call SearchMD("<args>")
 if exists("*CreateOrOpenMD")
 else
     function! CreateOrOpenMD(FileName)
-      "保证基础路径
-      execute "cd ".g:md_path
       let g:path_file=g:md_path.a:FileName
       "文件不存在就用 hugo 创建并且替换参数
       if empty(glob(g:path_file))
-        execute "cd ".g:blog_path
         echo "silent ! hugo new '".a:FileName."'"
-        execute "silent ! hugo new '".a:FileName."'"
+        execute "silent ! hugo -s ".g:blog_source_dir." new '".a:FileName."'"
         execute "e ".g:path_file
-        ":%s/draft: true/draft: false/g
-        "make sure path to md_path
-        execute "cd ".g:md_path
       else
         "存在直接编辑
         execute "e ".g:path_file
