@@ -21,6 +21,11 @@
   },
   "cSpell.userWords": ["bigzhu", "vuejs"],
   // vuejs auto format config
+  // 首层加上缩进
+  "vetur.format.scriptInitialIndent": true,
+  "vetur.format.styleInitialIndent": true,
+  //避免 Vetur can't find `tsconfig.json` or `jsconfig.json` 警告 https://vuejs.github.io/vetur/guide/FAQ.html#vetur-can-t-find-package-json-in-xxxx-xxxxxx
+  "vetur.ignoreProjectWarning": true,
   "vetur.format.defaultFormatterOptions": {
     "prettier": {
       "printWidth": 200, // No line exceeds 200 characters
