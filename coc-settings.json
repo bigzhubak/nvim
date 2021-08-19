@@ -1,5 +1,6 @@
 {
   "python.jediEnabled": false, // use MPLS 补全
+  //"typescript",
   "coc.preferences.formatOnSaveFiletypes": [
     "dart",
     "html",
@@ -7,7 +8,6 @@
     "vue",
     "go",
     "json",
-    "typescript",
     "javascript",
     "css",
     "markdown"
@@ -23,6 +23,7 @@
   // vuejs auto format config
   "vetur.format.defaultFormatterOptions": {
     "prettier": {
+      "printWidth": 200, // No line exceeds 200 characters
       "singleQuote": true,
       "semi": false, //no need semicolon
       "trailingComma": "none",

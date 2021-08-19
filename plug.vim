@@ -85,6 +85,11 @@ Plug 'vobornik/vim-mql4' " mql4 高亮
 
 Plug 'cespare/vim-toml' "toml config highlight
 
+" markdown 预览
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
+"Use (neo)vim terminal in the floating/popup window.
+Plug 'voldikss/vim-floaterm'
 
 call plug#end()
 
