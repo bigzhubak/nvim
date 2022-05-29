@@ -2,6 +2,9 @@
 "coc-vetur for vuejs
 "\'coc-snippets',
 let g:coc_global_extensions = [
+      \'coc-webview',
+      \'coc-markdown-preview-enhanced',
+      \'coc-snippets',
       \'coc-prettier',
       \'coc-html',
       \'coc-spell-checker',

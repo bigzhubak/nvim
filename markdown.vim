@@ -1,9 +1,13 @@
 " markdown wiki --------------------------------------------------------------------------------------------------------------
+
 " 文章内容存储目录
 let g:md_path='~/Dropbox/cheese/'
 "hugo 模版和配置文件目录
 let g:blog_source_dir='~/Dropbox/blog/'
 let g:sub_path='tips/'
+
+let g:vimwiki_list = [{'path': g:md_path,
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 
 " transfor markmap
 map <F4> :cd %:h <cr> :!markmap_new "%:t" -o ../mindmap/"%:r.html"<cr>

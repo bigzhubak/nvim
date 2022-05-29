@@ -54,5 +54,7 @@
     "vetur",
     "vuejs",
     "markdownlint"
-  ]
+  ],
+  // flutter
+  "flutter.lsp.initialization.closingLabels": true
 }

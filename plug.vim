@@ -2,6 +2,9 @@
 "插件
 call plug#begin('~/.config/nvim/plugged')
 
+
+Plug 'Neevash/awesome-flutter-snippets'
+
 Plug 'skywind3000/asyncrun.vim'
 
 " Track the engine.
@@ -30,7 +33,8 @@ Plug 'jistr/vim-nerdtree-tabs'
 "Plug 'majutsushi/tagbar' 
 "Plug 'lvht/tagbar-markdown' " markdow 的 toc
 Plug 'liuchengxu/vista.vim' " View and search LSP symbols, tags in Vim/NeoVim. (用于显示 markdown toc)
-Plug 'plasticboy/vim-markdown'
+Plug 'bigzhu/vimwiki'
+"Plug 'plasticboy/vim-markdown'
 
 " golang 相关的
 "Plug 'buoto/gotests-vim' " golang 生成测试
