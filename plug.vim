@@ -4,6 +4,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 
 Plug 'Neevash/awesome-flutter-snippets'
+Plug 'RobertBrunhage/flutter-riverpod-snippets'
 
 Plug 'skywind3000/asyncrun.vim'
 

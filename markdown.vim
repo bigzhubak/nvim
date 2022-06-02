@@ -6,7 +6,7 @@ let g:md_path='~/Dropbox/cheese/'
 let g:blog_source_dir='~/Dropbox/blog/'
 let g:sub_path='tips/'
 
-let g:vimwiki_list = [{'path': g:md_path,
+let g:vimwiki_list = [{'path': g:md_path.g:sub_path,
                       \ 'syntax': 'markdown', 'ext': '.md'}]
 
 " transfor markmap
