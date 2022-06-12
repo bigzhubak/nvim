@@ -16,3 +16,4 @@ function! AuCocNvimInit()
     endif
 endfunction
 autocmd User CocNvimInit call AuCocNvimInit()
+let g:dartfmt_options = ['--line-length 150']
