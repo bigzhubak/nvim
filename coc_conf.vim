@@ -13,7 +13,7 @@ let g:coc_global_extensions = [
       \'coc-highlight',
       \'coc-vetur',
       \'coc-go',
-      \'coc-python',
+      \'coc-pyright',
       \'coc-flutter', 
       \'coc-json', 
       \'coc-git'
