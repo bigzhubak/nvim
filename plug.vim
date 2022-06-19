@@ -31,8 +31,8 @@ Plug 'bigzhu/nerdtree' " 左边树形
 Plug 'jistr/vim-nerdtree-tabs'
 
 "markdown
-"Plug 'majutsushi/tagbar' 
-"Plug 'lvht/tagbar-markdown' " markdow 的 toc
+Plug 'majutsushi/tagbar' 
+Plug 'lvht/tagbar-markdown' " markdow 的 toc
 Plug 'liuchengxu/vista.vim' " View and search LSP symbols, tags in Vim/NeoVim. (用于显示 markdown toc)
 Plug 'bigzhu/vimwiki'
 "Plug 'plasticboy/vim-markdown'
