@@ -3,6 +3,7 @@
 "\'coc-snippets',
 let g:coc_global_extensions = [
       \'coc-snippets',
+      \'coc-snippets',
       \'coc-prettier',
       \'coc-html',
       \'coc-spell-checker',

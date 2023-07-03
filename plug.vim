@@ -2,7 +2,7 @@
 "插件
 call plug#begin('~/.config/nvim/plugged')
 
-
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'Neevash/awesome-flutter-snippets'
 Plug 'RobertBrunhage/flutter-riverpod-snippets'
 
@@ -57,7 +57,7 @@ Plug 'tpope/tpope-vim-abolish' " 驼峰和下划线转换
 Plug 'tpope/vim-fugitive'
 
 " flutter 
-Plug 'dart-lang/dart-vim-plugin' "dart
+"Plug 'dart-lang/dart-vim-plugin' "dart
 "Plug 'bigzhu/dart-vim-plugin' "dart for long line-length
 "Plug 'reisub0/hot-reload.vim' "hot reload
 " 代码检查
