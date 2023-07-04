@@ -18,3 +18,6 @@ set undofile
 set foldmethod=indent
 "disable auto fold
 set foldlevel=20
+
+" 映射 leader 键为 空格
+let g:mapleader = ' '
