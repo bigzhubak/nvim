@@ -29,7 +29,7 @@ let g:coc_global_extensions = [
 :nmap <space>i :Vista<CR>
 
 " To enable highlight current symbol on CursorHold
-autocmd CursorHold * silent call CocActionAsync('highlight')
+" autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Remap for refactor current function or other (add by bigzhu)
 nmap <leader>rf <Plug>(coc-refactor)
@@ -45,4 +45,4 @@ vmap <leader>a <Plug>(coc-codeaction-selected)
 nmap <leader>a <Plug>(coc-codeaction-selected)
 
 "
-autocmd CursorHold * silent call CocActionAsync('highlight')
+"autocmd CursorHold * silent call CocActionAsync('highlight')

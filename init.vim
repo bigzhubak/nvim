@@ -20,3 +20,5 @@ colorscheme gruvbox
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 " markdown
 source ~/.config/nvim/markdown.vim
+
+lua require('plug')
